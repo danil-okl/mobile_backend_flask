@@ -32,7 +32,5 @@ def get_news_categories():
 def index():
 	return 'Welcome ENSIA Students from Flask!'
 
-#if __name__ == "__main__":
-#	app.run(port=8080)
-
-
+if __name__ == "__main__":
+	app.run(port=8080)
